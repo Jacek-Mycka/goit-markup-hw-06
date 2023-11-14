@@ -987,6 +987,7 @@ p.employee-specialization {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--section-fife);
+  color: #8e8f99;
 }
 
 .span-label {
