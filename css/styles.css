@@ -953,7 +953,7 @@ p.employee-specialization {
   letter-spacing: 0.04em;
 }
 
-.second-modal-item:checked + .second-modal-label span {
+/* .second-modal-item:checked + .second-modal-label span {
   background-color: var(--ocean-color, #404bbf);
   border: none;
   fill: var(--cloud-color, #f4f4fd);
@@ -975,7 +975,62 @@ p.employee-specialization {
   background-color: var(--ocean-color, #404bbf);
   border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
+} */
+
+.label-modal-two{
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--section-fife);
 }
+
+.span-label{
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  margin-right: 8px;
+}
+
+.link-modal{
+  color: var(--color-logo);
+}
+.button-modal-six{
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-check:checked + .label-modal-two span {
+  background-color: var(--color-menu-p);
+  fill: #f4f4fd;
+  border: none;
+}
+
+
+
+
+
+
+
+
 
 svg:not(:root) {
   overflow-clip-margin: content-box;
