@@ -970,12 +970,11 @@ p.employee-specialization {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
   margin-right: 8px;
   color: var(--light-slate-color, #8e8f99);
   background-color: var(--ocean-color, #404bbf);
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  fill: transparent;
+  border: none; 
+  fill: #F4F4FD;
 }
 
 svg:not(:root) {
