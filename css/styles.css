@@ -954,6 +954,12 @@ p.employee-specialization {
   color: var(--light-slate-color, #8e8f99);
 }
 
+.second-modal-item:checked + .second-modal-label span {
+  background-color: var(--ocean-color, #404bbf);
+  border: none;
+  fill: var(--cloud-color, #f4f4fd);
+}
+
 .span-label {
   width: 16px;
   height: 16px;
@@ -968,9 +974,6 @@ p.employee-specialization {
   fill: transparent;
   margin-right: 8px;
   color: var(--light-slate-color, #8e8f99);
-}
-
-.modal-input:checked + .second-modal-label span {
   background-color: var(--ocean-color, #404bbf);
   border: none;
   fill: var(--cloud-color, #f4f4fd);
