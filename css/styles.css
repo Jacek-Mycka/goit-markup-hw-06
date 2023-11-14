@@ -888,6 +888,7 @@ p.employee-specialization {
 
 .modal-item {
   position: relative;
+  color: var(--light-slate-color, #8e8f99);
 }
 
 .input-element {
@@ -942,6 +943,7 @@ p.employee-specialization {
 
 .second-modal-item {
   margin-bottom: 24px;
+  color: var(--light-slate-color, #8e8f99);
 }
 
 .second-modal-label {
@@ -949,7 +951,7 @@ p.employee-specialization {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--navy-blue-modal-color, #2e2f4266);
+  color: var(--light-slate-color, #8e8f99);
 }
 
 .span-label {
