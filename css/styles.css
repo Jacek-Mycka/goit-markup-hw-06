@@ -951,7 +951,6 @@ p.employee-specialization {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--light-slate-color, #8e8f99);
 }
 
 .second-modal-item:checked + .second-modal-label span {
@@ -975,8 +974,8 @@ p.employee-specialization {
   margin-right: 8px;
   color: var(--light-slate-color, #8e8f99);
   background-color: var(--ocean-color, #404bbf);
-  border: none;
-  fill: var(--cloud-color, #f4f4fd);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  fill: transparent;
 }
 
 svg:not(:root) {
