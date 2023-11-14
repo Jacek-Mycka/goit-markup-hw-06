@@ -954,8 +954,8 @@ p.employee-specialization {
 
 .modal-input:checked + .second-modal-label span {
   background-color: var(--ocean-color, #404bbf);
-  fill: var(--cloud-color, #f4f4fd);
   border: none;
+  fill: var(--cloud-color, #f4f4fd);
 }
 
 .span-label {
@@ -971,6 +971,7 @@ p.employee-specialization {
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+  color: var(--light-slate-color, #8e8f99);
 }
 
 svg:not(:root) {
